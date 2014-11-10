@@ -18,3 +18,10 @@
 # Remember how range can be used to create the list [2,4,6,8]
 # When complete, commit to github and submit a pull request!
 
+aList = [2,4,6,8,]
+counter = 0
+while counter<len(aList):
+    print aList[counter]
+    counter=counter+1
+if counter >= len(aList):
+    print "who do we appreciate"
